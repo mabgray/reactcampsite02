@@ -188,6 +188,7 @@ class CommentForm extends Component {
                     <RenderCampsite campsite={props.campsite} />
                     <RenderComments comments={props.comments} />
                 </div>
+                <CommentForm />
             </div>
         )
            
